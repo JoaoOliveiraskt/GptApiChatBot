@@ -1,0 +1,96 @@
+.AppCarousel {
+    position: absolute;
+    top: 70px;
+    bottom: 40px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 1%;
+  }
+
+  
+  
+  .inner{
+    display: flex;
+    
+  }
+  
+  .item {
+    border-top: 1px solid #ffffff31;
+    border-bottom: 1px solid #ffffff31;
+    position: relative;
+    
+    min-width: 1200px;
+    padding: 10px;
+  }
+  
+  .image-wrapper {
+    position: relative;
+  }
+  
+  
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    
+    pointer-events: none;
+  }
+  
+  .carousel {
+    cursor: grab;
+    overflow: hidden;
+  }
+  
+  .carousel-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    max-width: 600px;
+    padding-right: 30px;
+    margin-right: 60px;
+  }
+
+  
+  
+  .carousel-title p {
+    text-align: justify;
+    color: #ffffff99;
+    margin-top: 20px;
+  }
+  
+  .button-link {
+    padding: 7px;
+    border-radius: 3px;
+    display: flex;
+    
+    border: 1px solid #ffffff1c;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: 'Source Code Pro', monospace;
+    align-items: center;
+    
+  }
+  
+  
+  .button-link:hover {
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #ffffff63;
+    border-right: 1px solid #ffffff48;
+    background-color: #1aff0053;
+    
+    transition: .5s linear;
+  }
+  svg {
+    margin-left: 10px;
+    
+    
+  }
+  
+
+ 
+  
